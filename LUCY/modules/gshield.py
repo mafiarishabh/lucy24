@@ -12,7 +12,7 @@ from telethon.tl.types import ChatBannedRights
 from LUCY.services.telethonbasics import is_admin
 from LUCY.events import register
 from pymongo import MongoClient
-from Zaid.modules.sql.nsfw_watch_sql import (
+from LUCY.modules.sql.nsfw_watch_sql import (
     add_nsfwatch,
     get_all_nsfw_enabled_chat,
     is_nsfwatch_indb,
