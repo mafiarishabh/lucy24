@@ -17,6 +17,6 @@ FOR DEPLOY ON HEROKU CLICK ON THE BUTTON ☟︎︎︎
 
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/mafiarishabh/lucy2">
-  <img src="https://img.shields.io/badge/Deploy%20YOUR%20LUCY-pink?style=flat&logo=heroku" width="325" height="50.100" /></a></p>
+  <img src="https://img.shields.io/badge/Deploy%20YOUR%20LUCY-black?style=flat&logo=heroku" width="325" height="50.100" /></a></p>
 
 
