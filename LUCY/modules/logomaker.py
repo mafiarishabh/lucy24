@@ -68,7 +68,7 @@ async def logo_gen(event):
             pics.append(i)
         id_ = random.choice(pics)
         bg_ = await id_.download_media()
-        fpath_ = glob.glob("./Zaid/resources/fonts/*")
+        fpath_ = glob.glob("./LUCY/resources/fonts/*")
         font_ = random.choice(fpath_)
     if not bg_:
         pics = []
@@ -79,7 +79,7 @@ async def logo_gen(event):
         id_ = random.choice(pics)
         bg_ = await id_.download_media()
     if not font_:
-        fpath_ = glob.glob("./Zaid/resources/fonts/*")
+        fpath_ = glob.glob("./LUCY/resources/fonts/*")
         font_ = random.choice(fpath_)
     if len(name) <= 8:
         fnt_size = 120
@@ -121,7 +121,7 @@ async def logo_gen(event):
     if os.path.exists(bg_):
         os.remove(bg_) 
     if os.path.exists(font_):
-        if not font_.startswith("./Zaid/resources/fonts"):
+        if not font_.startswith("./LUCY/resources/fonts"):
             os.remove(font_)
 
 
@@ -162,7 +162,7 @@ async def logo_(event):
         id_ = random.choice(pics)
         bg_ = await id_.download_media()
     if not font_:
-        fpath_ = glob.glob("./Zaid/resources/fonts/*")
+        fpath_ = glob.glob("./LUCY/resources/fonts/*")
         font_ = random.choice(fpath_)
     if len(name) <= 8:
         fnt_size = 105
@@ -204,7 +204,7 @@ async def logo_(event):
     if os.path.exists(bg_):
         os.remove(bg_) 
     if os.path.exists(font_):
-        if not font_.startswith("./Zaid/resources/fonts"):
+        if not font_.startswith("./LUCY/resources/fonts"):
             os.remove(font_)
 
 
