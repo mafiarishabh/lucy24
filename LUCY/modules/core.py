@@ -9,7 +9,7 @@ from LUCY import OWNER_ID, DEV_USERS
 from LUCY import TEMP_DOWNLOAD_DIRECTORY as path
 from LUCY import TEMP_DOWNLOAD_DIRECTORY
 from datetime import datetime
-water = './Zaid/resources/zaid.png'
+water = './LUCY/resources/zaid.png'
 client = tbot
 
 @register(pattern=r"^/send ?(.*)")
@@ -21,7 +21,7 @@ async def Prof(event):
     thumb = water
     message_id = event.message.id
     input_str = event.pattern_match.group(1)
-    the_plugin_file = "./Zaid/modules/{}.py".format(input_str)
+    the_plugin_file = "./LUCY/modules/{}.py".format(input_str)
     if os.path.exists(the_plugin_file):
      message_id = event.message.id
      await event.client.send_file(
