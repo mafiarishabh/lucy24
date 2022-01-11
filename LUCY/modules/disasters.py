@@ -13,7 +13,7 @@ from LUCY import (
     WOLVES,
     dispatcher,
 )
-from Zaid.modules.helper_funcs.chat_status import (
+from LUCY.modules.helper_funcs.chat_status import (
     dev_plus,
     sudo_plus,
     whitelist_plus,
