@@ -119,7 +119,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from Zaid.config import Development as Config
+    from LUCY.config import Development as Config
 
     TOKEN = Config.TOKEN
 
@@ -214,7 +214,7 @@ else:
         sw = None
         LOGGER.warning("Can't connect to SpamWatch!")
 
-from Zaid.modules.sql import SESSION
+from LUCY.modules.sql import SESSION
 
 defaults = tg.Defaults(run_async=True)
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
