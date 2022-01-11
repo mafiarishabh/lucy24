@@ -151,7 +151,7 @@ async def logo_(event):
             pics.append(i)
         id_ = random.choice(pics)
         bg_ = await id_.download_media()
-        fpath_ = glob.glob("./Zaid/resources/fonts/*")
+        fpath_ = glob.glob("./LUCY/resources/fonts/*")
         font_ = random.choice(fpath_)
     if not bg_:
         pics = []
