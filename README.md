@@ -1,19 +1,19 @@
-# Zaid Backup
+# LUCY
 
-For Any Query Join Our Support Group 👥
+For Any HELP Join LUCY Support Group 👥
 
-<a href="https://t.me/SUPERIOR_BOTS"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="https://t.me/SUPERIOR_SUPPORT"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
-
-
-Hey Welcome To Here 💫💫 You Can Make Your Own Music Bot For Music 🎶
+<a href="https://t.me/THANOSOWNER"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/lucyhelp"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 
-[![Zaid Backup LOGO](https://telegra.ph/file/c28fea3154adf03b561c3.jpg)](https://t.me/SUPERIOR_SUPPORT )
+Hey Welcome To Here 💫💫 You Can Make Your Own lucy Bot
 
-🔥 𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 𝐘𝐎𝐔𝐑 𝐎𝐖𝐍 𝐑𝐈𝐒𝐊 🔥
 
-𝔽𝕆ℝ 𝔻𝔼ℙ𝕃𝕆𝕐 𝕆ℕ ℍ𝔼ℝ𝕆𝕂𝕌 𝕋𝔸ℙ 𝕆ℕ 𝕋ℍ𝔼 𝔹𝕌𝕋𝕋𝕆ℕ ☟︎︎︎
+[![LUCY LOGO](https://telegra.ph/file/f846e6a9d9d037b03f2f2.jpg)](https://t.me/LUCY_MANAGER2_BOT )
+
+💞DEPLOY YOUR OWN LUCY💞
+
+FOR DEPLOY ON HEROKU CLICK ON THE BUTTON ☟︎︎︎
 
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/mafiarishabh/lucy2">
