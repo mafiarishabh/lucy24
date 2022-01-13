@@ -20,3 +20,5 @@ FOR DEPLOY ON HEROKU CLICK ON THE BUTTON ☟︎︎︎
   <img src="https://img.shields.io/badge/Deploy%20YOUR%20LUCY-black?style=flat&logo=heroku" width="325" height="50.100" /></a></p>
 
 
+
+(https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/SURTURBOT/LUCY2&envs=ALLOW_EXCL,API_HASH,API_ID,ARQ_API,BOT_ID,BOT_USERNAME,CASH_API_KEY,DEL_CMDS,ENV,EVENT_LOGS,JOIN_LOGGER,MONGO_DB_URI,OWNER_ID,OWNER_USERNAME,SQLALCHEMY_DATABASE_URI,STRICT_GBAN,STRING_SESSION,SUPPORT_CHAT,TOKEN,)
