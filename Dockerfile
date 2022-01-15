@@ -69,7 +69,7 @@ RUN git clone https://github.com/mafiarishabh/lucy24 /root/LUCY
 WORKDIR /root/LUCY
 
 #Copy config file to /root/LUCY/LUCY
-COPY ./LUCY/sample_config.py ./LUCY/config.py* /root/LUCY/LUCY/
+COPY ./LUCY/config.py ./LUCY/config.py* /root/LUCY/LUCY/
 
 ENV PATH="/home/bot/bin:$PATH"
 
