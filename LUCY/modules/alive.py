@@ -9,7 +9,7 @@ from LUCY.events import register
 from LUCY import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/70657821f00fc1fb8e539.jpg"
+PHOTO = "https://telegra.ph/file/6c5debf0ec42055e2eca7.jpg"
 
 @register(pattern=("/lucy"))
 async def awake(event):
