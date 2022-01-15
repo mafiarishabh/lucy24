@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/LUCY
-RUN git clone https://github.com/surturbot/lucy2 /root/LUCY
+RUN git clone https://github.com/mafiarishabh/lucy24 /root/LUCY
 WORKDIR /root/LUCY
 
 #Copy config file to /root/LUCY/LUCY
