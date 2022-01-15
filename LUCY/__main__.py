@@ -84,7 +84,7 @@ PM_START_TEXT = """
 *Hello {} !*
 💞 Hey I am Lucy : An anime - Themed advanced telegram Group management Bot with lots of cool features.
 
-Bot to help you to Manage & Protect Your Groups.[ㅤ](https://telegra.ph/file/cd5e959010b42902f3863.jpg)\nSo What are you Waiting For?\n Add Me To Ur chat and start using me.
+Bot to help you to Manage & Protect Your Groups.[ㅤ](https://telegra.ph/file/6c5debf0ec42055e2eca7.jpg)\nSo What are you Waiting For?\n Add Me To Ur chat and start using me.
 
 """
 
