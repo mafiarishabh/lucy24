@@ -82,27 +82,23 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-😈 HI'm Deadly, An anime - Themed advanced telegram Group management with lots of features.
-───────────────────────
-× *Uptime:* `{}`
-× `{}` *users, across* `{}` *chats.*
-───────────────────────
-✪ Bot For help You Manage & Protect Your Groups.
-[➼](https://telegra.ph/file/e13ca872cbb0a99046ebb.jpg) So What U Waiting For Add Me To Ur chat
-───────────────────────
+💞 Hey I am Lucy : An anime - Themed advanced telegram Group management Bot with lots of cool features.
+
+Bot to help you to Manage & Protect Your Groups.[ㅤ](https://telegra.ph/file/6c5debf0ec42055e2eca7.jpg)\nSo What are you Waiting For?\n Add Me To Ur chat and start using me.
+
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴇʟꜱᴇ ᴜ ɢᴀʏ🔥", url="t.me/deadly_fighters_bot?startgroup=true"),
+            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔥", url="t.me/LUCY_MANAGER2_bot?startgroup=true"),
     ],
      [
         InlineKeyboardButton(text="ʙᴀꜱɪᴄ ɢᴜɪᴅᴇ ", callback_data="emiko_"),
      ], 
      [  
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ⚒️", url="https://t.me/deadly_userbot"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ 📢", url="https://t.me/deadly_techy"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ⚒️", url="https://t.me/thanosbot_chats"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ 📢", url="https://t.me/thanosbot_chats"),
     ], 
 
     [
@@ -233,7 +229,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"<b>Hi I'm Zaid robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
+            f"<b>Hi I'm lucy bot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
             parse_mode=ParseMode.HTML
        )
 
@@ -364,7 +360,7 @@ def emiko_about_callback(update, context):
     query = update.callback_query
     if query.data == "emiko_":
         query.message.edit_text(
-            text="๏ I'm Deadly, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm Lucy, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -382,11 +378,11 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Commands 🏓", callback_data="help_back"),
                  ],
                  [
-                    InlineKeyboardButton(text="Support ⚒️", callback_data="Deadly_userbot"),
+                    InlineKeyboardButton(text="Support ⚒️", callback_data="emiko_support"),
                     InlineKeyboardButton(text="Developers 🎁", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Donate 💝", url=f"t.me/official_sameer"),
+                    InlineKeyboardButton(text="Donate 💝", url=f"t.me/KASHYAP_IS_PRO"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_back"),
@@ -412,7 +408,7 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, Deadly now ready to manage your group."
+            "\nCongragulations, lucy now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -429,13 +425,13 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_support":
         query.message.edit_text(
             text="*✨ support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Deadly.",
+            "\nJoin My Support Group/Channel for see or report a problem on Lucy.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/deadly_Userbot"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/Deadly_Techy"),
+                    InlineKeyboardButton(text="Support", url="t.me/thanosbot_chats"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/thanosbot_chats"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -454,8 +450,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Zaid", url="t.me/Timesisnotwaiting"),
-                    InlineKeyboardButton(text="Aman", url="t.me/Shubhanshutya"),
+                    InlineKeyboardButton(text="RISHABH", url="t.me/Mafiarishabh"),
+                    InlineKeyboardButton(text="KASHYAP", url="t.me/KASHYAP_IS_PRO"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -726,7 +722,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1669178360:
+        if OWNER_ID != 2143095429:
             update.effective_message.reply_text(
                 "I'm free for everyone ❤️ If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
